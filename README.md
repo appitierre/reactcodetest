@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Intellum Frontend Engineering Code Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+We would like you to write a highly interactive React branching question. Please use React and any other libraries around React to accomplish this task. However, you are not marked on the libraries you use - but how you use them.
 
-In the project directory, you can run:
+The value of this task is two fold:
 
-### `yarn start`
+1. We get the opportunity to see your coding ability and judge whether your skill level is what the job role requires.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. We get to see where your strengths and weaknesses are, so we can make sure you have access to the correct training material if you get the role.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## The Task
 
-### `yarn test`
+We would like you to create a branching scenario question where an end user is presented with a question and options. The user picks an option and is then given another question. When the user picks an option from this question they are shown another question with options.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The idea here is that if the user starts again, they should be able to select a different option in question 1 and follow a completely different path way.
 
-### `yarn build`
+You must also think about how the user finishes the branching question.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Please look at the image below for a detailed user flow:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Image of Branching Scenario](./branching-scenario.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The image above shows an example of what a user flow could be. Let's go over one of these to help detail a user flow.
 
-### `yarn eject`
+If the user selects "Option one" from "Question 1" then they will be shown "Question 2". "Question 2" has only 2 options. The user selects "Option two". They are then shown "Question 6". After answering "Question 6" they have finished the branching scenario.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Examples of questions and options:
+![Image of Branching Question 1](./basic-ui.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Image of Branching Question 2](./basic-ui-two.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You will notice "Question 3" does not have any child nodes. This is intentional, as branching scenarios can have an unlimited set of branching nodes. Selecting an option in "Question 3" would end the branching scenario.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Marking
 
-## Learn More
+Our review of this coding exercise looks at the following:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. React code structure
+2. Use of React principles and performance considerations
+3. Semantic HTML
+4. Styling and UI
+5. Progamming ability
+6. Data management
+7. Bonus improvements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Getting Help
 
-### Code Splitting
+If you have any questions please do not hesitate to contact me. These questions will not be held against you when marking.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Submitting Your Code
 
-### Analyzing the Bundle Size
+To submit your work, please upload this to your personal github account and share this with me. We have initially set a week to produce this task. Please let us know if you feel this is unachieveable giving the reason why.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Getting Started
 
-### Making a Progressive Web App
+Run `npm install` or `yarn install`
+Then run `npm start` or `yarn start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This should open a new browser window and all updates should be automatically picked up in the browser. Happy coding!!
