@@ -10,6 +10,8 @@ The value of this task is two fold:
 
 2. We get to see where your strengths and weaknesses are, so we can make sure you have access to the correct training material if you get the role.
 
+This is also representative of the kind of interactions we build daily and is a good example of the work a Front-end engineer builds at Intellum.
+
 ## The Task
 
 We would like you to create a branching scenario question where an end user is presented with a question and options. The user picks an option and is then given another question. When the user picks an option from this question they are shown another question with options.
